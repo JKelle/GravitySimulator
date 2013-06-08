@@ -15,7 +15,10 @@ public abstract class Box extends Rectangle{
 	Color color;
 	
 	public Box(int length) {
-		super((int)(Math.random()*(ScreenSaver.getSpaceWidth()-length)), (int)(Math.random()*(ScreenSaver.getHeight()-length)), length, length);
+		super(	(int)(Math.random()*(ScreenSaver.getSpaceWidth()-length)),
+				(int)(Math.random()*(ScreenSaver.getHeight()-length)),
+				length,
+				length);
 		pastLocs = new ArrayList<int[]>();
 		setInitialVelocities();
 		rx = x;
