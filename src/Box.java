@@ -16,7 +16,7 @@ public abstract class Box extends Rectangle{
 	
 	public Box(int length) {
 		super(	(int)(Math.random()*(ScreenSaver.getSpaceWidth()-length)),
-				(int)(Math.random()*(ScreenSaver.getHeight()-length)),
+				(int)(Math.random()*(ScreenSaver.getHeight()    -length)),
 				length,
 				length);
 		pastLocs = new ArrayList<int[]>();
