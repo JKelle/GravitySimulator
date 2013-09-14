@@ -49,10 +49,10 @@ public class ScreenSaver implements Runnable
 	private Rectangle selectedRect;
 	private static ArrayList<int[]> centersOfGravity = new ArrayList<int[]>();
 	
-	private int nWH = 5;
-	private int nLW = 20;
-	private int nHW = 5;
-	private static double gravity = 1.0;
+	private int nWH = 3;
+	private int nLW = 5;
+	private int nHW = 1;
+	private static double gravity = 0.5;
 	private static boolean isPaused = true;
 
 	public ScreenSaver()
